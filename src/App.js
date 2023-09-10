@@ -22,8 +22,8 @@ function App() {
 
   let content;
   if (isMobile) {
-    content = data.map(({ id, title, content }) => {
-      return <Accordion key={id} id={id} title={title} content={content} />;
+    content = data.map((item) => {
+      return <Accordion key={item.id} {...item} />;
     });
   } else {
     content = <Tabs tabs={data} />;
