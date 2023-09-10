@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 import logo from "../../assets/images/logo2.png";
 import "./styles.css";
 
@@ -10,10 +12,14 @@ const BottomNavbar = () => {
         </div>
         <ul className="bottom-links">
           <li className="bottom-link">
-            <a href="/">01. History</a>
+            <Link to="history" smooth={true}>
+              01. History
+            </Link>
           </li>
           <li className="bottom-link">
-            <a href="/">02. Team</a>
+            <Link to="team" smooth={true}>
+              02. Team
+            </Link>
           </li>
         </ul>
       </div>

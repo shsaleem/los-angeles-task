@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 import "./styles.css";
 import logo from "../../assets/images/logo.png";
 
@@ -9,10 +11,14 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
         <li className="nav-link">
-          <a href="/">01. History</a>
+          <Link to="history" smooth={true}>
+            01. History
+          </Link>
         </li>
         <li className="nav-link">
-          <a href="/">02. Team</a>
+          <Link to="team" smooth={true}>
+            02. Team
+          </Link>
         </li>
       </ul>
     </nav>

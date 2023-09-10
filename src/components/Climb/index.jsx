@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Climb = () => {
   return (
-    <section className="climb">
+    <section className="climb" id="team">
       <div className="climb-content">
         <div className="climb-detail">
           <div>
@@ -12,9 +12,7 @@ const Climb = () => {
             </p>
           </div>
           <div className="climb-title">
-            <span id="team" className="title-text">
-              CLIMB
-            </span>
+            <span className="title-text">CLIMB</span>
             <span className="dot"></span>
           </div>
         </div>

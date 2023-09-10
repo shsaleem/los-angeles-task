@@ -26,8 +26,9 @@
   list-style: none;
 }
 
-.bottom-navbar .bottom-link a {
+.bottom-navbar .bottom-link {
   color: #414f6b;
   text-decoration: underline;
   font-style: italic;
+  cursor: pointer;
 }

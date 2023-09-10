@@ -21,8 +21,9 @@
   list-style: none;
 }
 
-.nav-link a {
+.nav-link {
   color: #fff;
   text-decoration: underline;
   font-style: italic;
+  cursor: pointer;
 }

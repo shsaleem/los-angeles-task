@@ -4,7 +4,7 @@ import "./styles.css";
 
 const History = () => {
   return (
-    <section className="history">
+    <section className="history" id="history">
       <div className="history-content">
         <div className="history-detail">
           <div>
@@ -13,9 +13,7 @@ const History = () => {
             </p>
           </div>
           <div className="history-title">
-            <span id="history" className="history-text">
-              HISTORY
-            </span>
+            <span className="history-text">HISTORY</span>
             <span className="dot"></span>
           </div>
         </div>

@@ -8,7 +8,6 @@ import "./styles.css";
 const Carousel = () => {
   const renderSlides = images.map((image) => {
     const { id, src, alt } = image;
-
     return (
       <div key={id}>
         <img className="slider-image" src={src} alt={alt} />
