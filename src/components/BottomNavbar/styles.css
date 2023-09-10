@@ -1,0 +1,33 @@
+.bottom-navbar {
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bottom-navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.bottom-navbar .bottom-logo {
+  width: 140px;
+  height: 100px;
+}
+
+.bottom-navbar .bottom-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.bottom-navbar .bottom-link a {
+  color: #414f6b;
+  text-decoration: underline;
+  font-style: italic;
+}

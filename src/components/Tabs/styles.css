@@ -1,0 +1,55 @@
+.tabs-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tab-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #414f6b;
+  padding-left: 12%;
+}
+
+.tab {
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #b0b4be;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.tab.active {
+  background-color: #b0b4be;
+  color: #414f6b;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.tab-content {
+  padding: 24px;
+  width: 380px;
+  height: 250px;
+  background-color: rgba(245, 247, 250, 0.7);
+  margin-left: 14%;
+  margin-top: 80px;
+}
+
+.schedule {
+  text-transform: uppercase;
+  color: #414f6b;
+  font-weight: 800;
+}
+
+.schedule-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 10px;
+}

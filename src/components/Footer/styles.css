@@ -1,0 +1,19 @@
+.footer {
+  background: #414f6b;
+  color: #5e729a;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.footer-content {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 140px;
+  height: 100px;
+}

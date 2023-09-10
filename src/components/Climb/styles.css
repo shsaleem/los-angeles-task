@@ -1,0 +1,58 @@
+.climb {
+  height: 30%;
+  max-width: 100vw;
+  padding: 20px 0;
+}
+
+.climb-content {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.climb-detail {
+  display: flex;
+}
+
+.climb .digit {
+  color: #a0a7b5;
+  font-size: 110px;
+  font-weight: 700;
+}
+
+.climb-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.climb .title-text {
+  color: #414f6b;
+  font-size: 26px;
+  margin-top: 71px;
+  font-weight: 700;
+}
+
+.climb .dot {
+  margin-top: 0px;
+  background-color: #a0a7b5;
+  width: 14px;
+  height: 14px;
+}
+
+.climb-desc {
+  color: #181a1c;
+  width: 100%;
+  margin-left: 24px;
+  padding: 12px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .climb-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
